@@ -2,7 +2,7 @@
 
 # Set variables
 BACKUP_DIR="/home/ec2-user/BashScripting-Backup"
-SOURCE_DIR="/home/ec2-user/BashScripting"
+SOURCE_DIR="/home/ec2-user/BashScripting/"
 
 # Create backup directory if not exists
 mkdir -p $BACKUP_DIR
