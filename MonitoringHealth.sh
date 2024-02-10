@@ -4,6 +4,7 @@
 uptime
 
 # Check memory and CPU usage
+
 free -m
 top -n 1 | head -n 10
 
