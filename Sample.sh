@@ -7,7 +7,7 @@ fi
 
 exec 2>> $logfile
 
-echo "Script started"
+echo "Script started.."
 
 ls /abt
 
