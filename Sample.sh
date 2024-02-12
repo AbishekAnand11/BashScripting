@@ -1,6 +1,7 @@
 #!/bin/bash
-
-logfile = "logs/error_log.txt"
+mkdir logs
+cd logs
+logfile = "error_log.txt"
 if [ ! -f $logfile ]; then
   touch $logfile
 fi 
