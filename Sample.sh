@@ -1,5 +1,14 @@
 #!/bin/bash
 
-echo "listing the processes running on machine"
+logfile = "error_log.txt"
+if [ ! -f $logfile ]; then
+  touch $logfile
+fi 
 
-ps -a
+exec 2>> $logfile
+
+echo "Script started"
+
+ls /abt
+
+echo "script ended at $(date)"
