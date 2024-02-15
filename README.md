@@ -9,3 +9,4 @@ Shebang Notation
 2) uptime
 3) head
 4) df
+5) rsync -  command you provided is used for synchronizing files and directories between a source and         destination.
